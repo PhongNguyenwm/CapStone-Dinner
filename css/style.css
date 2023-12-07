@@ -36,3 +36,8 @@ li {
 a {
   text-decoration: none;
 }
+/* aboutUs__content */
+.aboutUs__text{
+  font-size: 20px;
+  color: gray;
+}
