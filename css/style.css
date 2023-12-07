@@ -38,8 +38,12 @@ a {
 }
 /* aboutUs__content */
 .aboutUs__text{
-  font-size: 20px;
+  font-size: 18px;
   color: gray;
+}
+.aboutUs__content{
+
+  padding: 50px 0px;
 }
 
 
