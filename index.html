@@ -41,33 +41,54 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
+    <!-- IMG BANNER -->
+    <style>
+      .banner__bg {
+        background-image: linear-gradient(
+            to right,
+            #ff6600,
+            hsl(30deg 100% 1% / 20%)
+          ),
+          url(./img/banner1.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .banner__content {
+      }
+    </style>
     <!-- Style CSS -->
-    <link rel="stylesheet" href="/Capstone-Dinner/css/style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body id="dinnerBody">
     <!-- HEADER -->
     <header>
-      <nav class="navbar container d-flex bd-highlight navbar-light bg-light">
-        <h1 class="p-2 flex-grow-1 bd-highlight">
+      <nav class="navbar container d-flex">
+        <h1 class="p-2 flex-grow-1">
           <a class="navbar-brand" href="#">Dinner</a>
         </h1>
-        <form class="card form-inline">
-          <div class="input-group">
+        <form class="card form-inline p-2">
+          <div class="input-group-append">
             <input
               type="text"
               class="form-control"
-              placeholder="Username"
+              placeholder="Search here ..."
               aria-label="Username"
               aria-describedby="basic-addon1"
             />
-            <div class="input-group-prepend">
-              <span class="input-group-text" id="basic-addon1">
+            <div class="input-group-append">
+              <span class="input-group-text">
                 <i class="fa fa-search"></i
               ></span>
             </div>
           </div>
         </form>
-        <div class="mx-auto py-3">
+        <div class="mx-3 py-3">
           <button class="btn" id="switchButton" title="Click to switch theme">
             <i class="far fa-moon"></i>
             <i class="far fa-sun"></i>
@@ -118,6 +139,20 @@
       </nav>
     </header>
     <!-- BANNER -->
+    <section class="banner">
+      <div class="banner__bg"></div>
+      <div class="banner__content">
+        <h3>The Only Thing We Love More Than Food Is You!</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi vitae
+          sit.Ea ipsum sed consequuntur illum facere.
+        </p>
+        <a class="btn btn-black" href="#">
+          Read More
+          <span></span>
+        </a>
+      </div>
+    </section>
     <!-- ABOUT US -->
 
     <section class="aboutUs">
@@ -200,8 +235,7 @@
         </div>
       </div>
     </section>
-    
-   
+
     <!-- CATEGORY -->
     <section class="category">
       <div class="container">
@@ -211,70 +245,61 @@
         </div>
         <div class="category__item">
           <div class="row ">
-            <div class="col-6 col-lg-4 ">
+            <div class="col-4">
               <div class="img__item2">
-                <img src="./img/g1.jpg" alt="">
+                <img src="./img/g1.jpg" alt="" />
               </div>
               <div class="category__text">
-                <h4>
-                  Vegetarian</h4>
-                  <p>$350</p>
+                <h4>Vegetarian</h4>
+                <p>$350</p>
               </div>
             </div>
             <div class="col-6 col-lg-4 ">
               <div class="img__item2">
-                <img src="./img/g2.jpg" alt="">
+                <img src="./img/g2.jpg" alt="" />
               </div>
               <div class="category__text">
-                <h4>
-                 Drinks</h4>
-                  <p>$550</p>
+                <h4>Drinks</h4>
+                <p>$550</p>
               </div>
             </div>
             <div class="col-6 col-lg-4 ">
               <div class="img__item2">
-                <img src="./img/g3.jpg" alt="">
+                <img src="./img/g3.jpg" alt="" />
               </div>
               <div class="category__text">
-                <h4>
-                 Lunch</h4>
-                  <p>$650</p>
+                <h4>Lunch</h4>
+                <p>$650</p>
               </div>
             </div>
             <div class="col-6 col-lg-4 ">
               <div class="img__item2">
-                <img src="./img/g4.jpg" alt="">
+                <img src="./img/g4.jpg" alt="" />
               </div>
               <div class="category__text">
-                <h4>
-                  Bakery</h4>
-                  <p>$550</p>
+                <h4>Bakery</h4>
+                <p>$550</p>
               </div>
             </div>
             <div class="col-6 col-lg-4 ">
               <div class="img__item2">
-                <img src="./img/g5.jpg" alt="">
+                <img src="./img/g5.jpg" alt="" />
               </div>
               <div class="category__text">
-                <h4>
-                 
-Desserts</h4>
-                  <p>$750</p>
+                <h4>Desserts</h4>
+                <p>$750</p>
               </div>
             </div>
             <div class="col-6 col-lg-4 ">
               <div class="img__item2">
-                <img src="./img/g6.jpg" alt="">
+                <img src="./img/g6.jpg" alt="" />
               </div>
               <div class="category__text">
-                <h4>
-                 Pizza</h4>
-                  <p>$850</p>
+                <h4>Pizza</h4>
+                <p>$850</p>
               </div>
             </div>
           </div>
-          
-          
         </div>
       </div>
     </section>
