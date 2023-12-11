@@ -11,6 +11,7 @@ body {
   color: #404040;
   font-size: 1rem;
   line-height: 1.5;
+  /* overflow-x: hidden; */
 }
 
 .title h6 {
@@ -39,6 +40,12 @@ a {
 
 /* HEADER */
 
+header {
+  z-index: 1032;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 header .navbar .navbar-brand {
   color: #fff;
   font-size: 36px;
@@ -61,12 +68,14 @@ header .navbar .navbar-brand {
 .navbar-toggler i {
   font-size: 25px;
   color: #fff;
+  font-weight: 800;
 }
 
 .navbar .nav-item a {
   color: #fff;
   font-size: 20px;
   font-weight: 600;
+  transition: all 0.3s;
 }
 
 .navbar-collapse .collapse {
@@ -74,8 +83,7 @@ header .navbar .navbar-brand {
 }
 .collapse .nav-item:hover a {
   color: #f60;
-  /* background-color: #232220; */
-}
+ }
 
 #switchButton .btn i {
   font-size: 25px;
@@ -134,6 +142,74 @@ header .navbar .navbar-brand {
 
 /* BANNER */
 
+.banner {
+  /* display: grid; */
+}
+.banner__img{
+  background-image:linear-gradient(to right, #f60, hsl(30deg 100% 1% / 20%)), url(../img/banner1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  
+}
+
+.banner__content {
+  z-index: 1031;
+  width: 600px;
+  text-align: left;
+  position: absolute;
+  top: 150px;
+  left: 125px;
+}
+.banner__content h3 {
+  font-size: 54px;
+  line-height: 64px;
+  font-weight: 600;
+  color: #fff;
+}
+.banner__content p {
+  font-size: 16px;
+  line-height: 28px;
+  color: #fff;
+  margin-bottom: 0;
+}
+.banner__content .btn {
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 12px 45px;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 700;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  transition: 0.5s;
+}
+.btn-white p {
+  display: inline;
+}
+.btn-white:hover {
+  background-color: #fff;
+}
+.btn-white:hover p,
+.btn-white:hover i {
+  color: #f60;
+}
+
+.banner__content .btn-white i {
+  font-size: 14px;
+  font-weight: 800;
+}
+.banner .carousel-caption {
+  bottom: 150px;
+
+  right: 0;
+}
+
 /* aboutUs__content */
 .aboutUs__text {
   font-size: 18px;
@@ -154,32 +230,34 @@ header {
 }
 .img__item img {
   width: 100%;
-  height: 500px;
+  min-height: 600px;
   background-size: 100%;
   background-position: center;
-  background: rgb(16 15 19 / 46%);
+  background: black;
   object-fit: cover;
+  opacity: 0.9;
+  bg
 }
-.restaurants__item {
-  padding: 0px 60px;
-}
-.restaurants__text p:first-of-type {
+.restaurants__text h6 {
   color: #fff;
   font-family: "Pacifico", cursive;
   padding-top: 30px;
   font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 1px;
 }
 .restaurants__text h3 {
-  font-size: 2.3rem;
+  font-size: 38px;
   font-weight: 600;
-  color: black;
+  color: #232121;
+  line-height: 48px;
+  display: inline-block;
 }
 .restaurants__item p {
   color: #ffdfc9;
-  font-size: 1.1rem;
-}
-.p__text {
-  padding-bottom: 30px;
+  font-size: 18px;
+  line-height: 28px;
 }
 .col__content {
   width: 70px;
