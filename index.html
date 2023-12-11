@@ -58,8 +58,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-      }
-      .banner__content {
+        position: sticky !important;
       }
     </style>
     <!-- Style CSS -->
@@ -72,7 +71,7 @@
         <h1 class="p-2 flex-grow-1">
           <a class="navbar-brand" href="#">Dinner</a>
         </h1>
-        <form class="card form-inline p-2">
+        <form class="card form-inline ml-3 p-2">
           <div class="input-group-append">
             <input
               type="text"
@@ -140,17 +139,20 @@
     </header>
     <!-- BANNER -->
     <section class="banner">
-      <div class="banner__bg"></div>
-      <div class="banner__content">
-        <h3>The Only Thing We Love More Than Food Is You!</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi vitae
-          sit.Ea ipsum sed consequuntur illum facere.
-        </p>
-        <a class="btn btn-black" href="#">
-          Read More
-          <span></span>
-        </a>
+      <div class="banner__bg sticky-top"></div>
+      <div class="container banner__container">
+        <div class="banner__content">
+          <h3 class="mb-4">The Only Thing We Love More Than Food Is You!</h3>
+          <p class="pr-lg-5 mt-md-4 mt-3">
+            Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi
+            vitae sit.Ea ipsum sed consequuntur illum facere.
+          </p>
+
+          <button type="button" class="btn btn-white mt-sm-5 mt-4 mr-2">
+            <p>Read More &nbsp;</p>
+            <span><i class="fa fa-chevron-right"></i></span>
+          </button>
+        </div>
       </div>
     </section>
     <!-- ABOUT US -->

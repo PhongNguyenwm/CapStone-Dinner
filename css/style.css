@@ -39,6 +39,9 @@ a {
 
 /* HEADER */
 
+header {
+  z-index: 1032;
+}
 header .navbar .navbar-brand {
   color: #fff;
   font-size: 36px;
@@ -61,12 +64,14 @@ header .navbar .navbar-brand {
 .navbar-toggler i {
   font-size: 25px;
   color: #fff;
+  font-weight: 800;
 }
 
 .navbar .nav-item a {
   color: #fff;
   font-size: 20px;
   font-weight: 600;
+  transition: all 0.3s;
 }
 
 .navbar-collapse .collapse {
@@ -133,6 +138,70 @@ header .navbar .navbar-brand {
 }
 
 /* BANNER */
+
+.banner {
+  display: grid;
+}
+
+.banner__container {
+  z-index: 1031;
+  width: 83%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.banner__content {
+  z-index: 1031;
+  width: 600px;
+  text-align: left;
+  position: absolute;
+  top: 150px;
+}
+.banner__content h3 {
+  font-size: 54px;
+  line-height: 64px;
+  font-weight: 600;
+  color: #fff;
+}
+.banner__content p {
+  font-size: 16px;
+  line-height: 28px;
+  color: #fff;
+  margin-bottom: 0;
+}
+.banner__content .btn {
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 12px 45px;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 700;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  transition: 0.5s;
+}
+.btn-white p {
+  display: inline;
+}
+.btn-white:hover {
+  background-color: #fff;
+}
+.btn-white:hover p,
+.btn-white:hover i {
+  color: #f60;
+}
+
+.banner__content .btn-white i {
+  font-size: 14px;
+  font-weight: 800;
+}
+.banner .carousel-caption {
+  bottom: 150px;
+
+  right: 0;
+}
 
 /* aboutUs__content */
 .aboutUs__text {
