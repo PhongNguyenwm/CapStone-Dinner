@@ -480,14 +480,9 @@ padding: 50px 0px 180px 0px;
   border: 2px solid #f60;
 }
 
-.delicious__bottom{
-  position: absolute;
-  bottom: -150px;
-  left: 0px;
+
  
-  z-index: 0209;
- 
-}
+
 .number{
   background-color: #fff;
   box-shadow: rgba(1, 1, 1, 0.05) 1px 1px 5px 0px;
@@ -522,3 +517,19 @@ padding: 50px 0px 180px 0px;
   font-weight: bold;
 }
 
+/* number  */
+.number__container{
+  position: relative;
+}
+.number__content{
+ 
+   
+    position: absolute;
+  
+    top: -90px;
+    left: 0px;
+   
+    z-index: 0209;
+    width: 100%;
+
+}
