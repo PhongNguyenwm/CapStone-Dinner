@@ -42,7 +42,7 @@
       referrerpolicy="no-referrer"
     />
     <!-- Magnific Popup core CSS file -->
-<link rel="stylesheet" href="magnific-popup/magnific-popup.css">
+    <link rel="stylesheet" href="./Lib/PopUp/magnific-popup.css">
 
     <!-- Style CSS -->
     <link rel="stylesheet" href="./css/style.css" />
@@ -501,11 +501,12 @@
     <section>
       <br><br><br><br><br><br><br>
     </section>
-    <section class="video">
-      <a href="#small-dialog" class="open-popup-link popup-with-zoom-anim">
-        <i class="fa-solid fa-play"></i>
+    <section class="video container">
+      <div class="video__item">
+      <a href="#small-dialog" class="open-popup-link popup-with-zoom-anim text-center">
+        <span class="fa-solid fa-play"></span>
       </a>
-      
+    </div>
       <div id="small-dialog" class="zoom-anim-dialog mfp-hide">
         <iframe src="https://player.vimeo.com/video/305185528" frameborder="0" allow="autoplay; fullscreen" allowfullscreen=""></iframe>
       </div>
@@ -544,9 +545,8 @@
     <script src="./js/util.js"></script>
     <script src="./js/main.js"></script>
     <!-- Magnific Popup core JS file -->
-<script src="magnific-popup/jquery.magnific-popup.js"></script>
-<!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="./Lib/PopUp/jquery.magnific-popup.min.js"></script>
+
 <script>
   
   
@@ -571,6 +571,5 @@
 
 
 </script>
-<script src="https://wp.w3layouts.com/diner/wp-content/themes/Diner/assets/js/counter.js"></script>
   </body>
 </html>
