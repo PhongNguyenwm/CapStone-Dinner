@@ -533,15 +533,14 @@ padding: 50px 0px 180px 0px;
 }
 
 /* number  */
-.number__container{
-  position: relative;
-}
+
+
 .number__content{
  
    
     position: absolute;
   
-    top: -90px;
+    bottom: -130px;
     left: 0px;
    
     z-index: 0209;
@@ -549,6 +548,9 @@ padding: 50px 0px 180px 0px;
 
 }
 /* video  */
+.item1{
+  margin-bottom: 200px;
+}
 .video__item{
   background: url(../img/banner3.jpg) no-repeat center;
   background-size: cover;
