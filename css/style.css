@@ -740,3 +740,8 @@ div#small-dialog iframe {
 .my-mfp-zoom-in.mfp-removing.mfp-bg {
   opacity: 0;
 }
+
+/* TESTIMONIAL */
+.testimonial .testimonial__title {
+  text-align: center;
+}
