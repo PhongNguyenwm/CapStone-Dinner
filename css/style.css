@@ -555,14 +555,14 @@ p {
   z-index: 0209;
   width: 100%;
 
-  top: -90px;
-  left: 0px;
-
   z-index: 0209;
   width: 100%;
 }
 
 /* BLOG */
+.blog {
+  background: #f7f7f7;
+}
 .blog a {
   text-decoration: none;
 }
