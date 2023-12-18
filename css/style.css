@@ -906,3 +906,12 @@ div#small-dialog iframe {
 .bottom__copy a:hover {
   color: #fff;
 }
+
+/* BACK TO TOP */
+.backToTop .cd-top {
+  width: 50px;
+  height: 50px;
+  background-color: #f60;
+  border-radius: 50%;
+  z-index: 1;
+}
