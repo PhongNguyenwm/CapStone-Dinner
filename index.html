@@ -44,6 +44,10 @@
     <!-- Magnific Popup core CSS file -->
     <link rel="stylesheet" href="./Lib/PopUp/magnific-popup.css" />
 
+    <!-- OWl CAROUSEL -->
+    <link rel="stylesheet" href="./css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./css/owl.theme.default.scss" />
+
     <!-- Style CSS -->
     <link rel="stylesheet" href="./css/style.css" />
   </head>
@@ -625,16 +629,136 @@
       </div>
     </section>
     <!-- TESTIMONIAL -->
-    <!-- <section class="testimonial" style="position: relative">
-      <div class="container-fluid">
-        <div class="container">
-          <div class="Testimonial__title title">
+    <section class="testimonial" style="position: relative">
+      <div class="container-fluid py-5">
+        <div class="container py-md-3 py-lg-5">
+          <div class="testimonial__title title">
             <h6>Testimonials</h6>
-            <h3>What People Say</h3>
+            <h3 class="mb-5">What People Say</h3>
+          </div>
+          <div
+            class="owl-carousel owl-theme owl-loaded py-2 mb-4 text-center owl-drag"
+          >
+            <div class="owl-stage-outer">
+              <div class="owl-stage" style="transition: all 0.25s ease 0s">
+                <div class="owl-item active">
+                  <div class="testimonial__item">
+                    <div class="testimonial__content">
+                      <div class="testimonial__mcarousel">
+                        <a class="img__center" href="#"
+                          ><img src="./img/team1.jpg" alt="team1"
+                        /></a>
+                        <span class="fa fa-quote-left"></span>
+                        <blockquote>
+                          <q>OMG! I cannot believe. It's Awesome</q>
+                        </blockquote>
+                        <p>
+                          My new site is so much faster and easier to work with
+                          than my old site. They are here to help the customers
+                          to get their success. Nemo sit eos, quod minus eius
+                          illo labore. Pellen tesque libero ut justo, ultrices
+                          in ligula.
+                        </p>
+                        <div class="text-center mt-4">
+                          <div class="people-info align-self">
+                            <h3>Johnson William</h3>
+                            <p class="indentity text-center">Customer</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="owl-item">
+                  <div class="testimonial__item">
+                    <div class="testimonial__content">
+                      <div class="testimonial__mcarousel">
+                        <a class="img__center" href="#"
+                          ><img src="./img/team2.jpg" alt="team2"
+                        /></a>
+                        <span class="fa fa-quote-left"></span>
+                        <blockquote>
+                          <q>Simply the best. Better than all the rest.</q>
+                        </blockquote>
+                        <p>
+                          My new site is so much faster and easier to work with
+                          than my old site. They are here to help the customers
+                          to get their success. Nemo sit eos, quod minus eius
+                          illo labore. Pellen tesque libero ut justo, ultrices
+                          in ligula.
+                        </p>
+                        <div class="text-center mt-4">
+                          <div class="people-info align-self">
+                            <h3>Alexander</h3>
+                            <p class="indentity text-center">Customer</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="owl-item">
+                  <div class="testimonial__item">
+                    <div class="testimonial__content">
+                      <div class="testimonial__mcarousel">
+                        <a class="img__center" href="#"
+                          ><img src="./img/team3.jpg" alt="team3"
+                        /></a>
+                        <span class="fa fa-quote-left"></span>
+                        <blockquote>
+                          <q>OMG! I cannot believe. It's Awesome</q>
+                        </blockquote>
+                        <p>
+                          My new site is so much faster and easier to work with
+                          than my old site. They are here to help the customers
+                          to get their success. Nemo sit eos, quod minus eius
+                          illo labore. Pellen tesque libero ut justo, ultrices
+                          in ligula.
+                        </p>
+                        <div class="text-center mt-4">
+                          <div class="people-info align-self">
+                            <h3>John Wilson</h3>
+                            <p class="indentity text-center">Customer</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="owl-item">
+                  <div class="testimonial__item">
+                    <div class="testimonial__content">
+                      <div class="testimonial__mcarousel">
+                        <a class="img__center" href="#"
+                          ><img src="./img/team2.jpg" alt="team2"
+                        /></a>
+                        <span class="fa fa-quote-left"></span>
+                        <blockquote>
+                          <q>OMG! I cannot believe. It's Awesome</q>
+                        </blockquote>
+                        <p>
+                          My new site is so much faster and easier to work with
+                          than my old site. They are here to help the customers
+                          to get their success. Nemo sit eos, quod minus eius
+                          illo labore. Pellen tesque libero ut justo, ultrices
+                          in ligula.
+                        </p>
+                        <div class="text-center mt-4">
+                          <div class="people-info align-self">
+                            <h3>Julia Sakura</h3>
+                            <p class="indentity text-center">Customer</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </section> -->
+    </section>
     <!-- FOOTER -->
 
     <!-- JQUERY hỗ trợ -->
@@ -697,16 +821,16 @@
       $(".owl-carousel").owlCarousel({
         loop: true,
         margin: 10,
-        nav: true,
+        nav: false,
         responsive: {
           0: {
             items: 1,
           },
           600: {
-            items: 3,
+            items: 1,
           },
           1000: {
-            items: 5,
+            items: 1,
           },
         },
       });
