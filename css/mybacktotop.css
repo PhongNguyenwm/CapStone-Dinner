@@ -1,0 +1,15 @@
+/* BACK TO TOP */
+.cd-top {
+  width: 50px;
+  height: 50px;
+  background-color: #f60;
+  border-radius: 50%;
+  z-index: 1;
+
+  visibility: hidden;
+  opacity: 0;
+}
+.cd-top--is-visible {
+  visibility: visible;
+  opacity: 1;
+}

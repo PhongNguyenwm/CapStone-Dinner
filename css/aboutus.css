@@ -1,0 +1,13 @@
+/* aboutUs__content */
+.aboutUs__text {
+  font-size: 18px;
+  color: gray;
+}
+.aboutUs__content {
+  padding: 50px 50px;
+}
+
+header {
+  position: absolute;
+  width: 100%;
+}

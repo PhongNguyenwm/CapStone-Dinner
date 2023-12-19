@@ -1,0 +1,116 @@
+/* HEADER */
+
+header {
+  z-index: 1032;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+header .navbar {
+  padding: 40px 0 20px;
+}
+header .navbar .navbar-brand {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.form-inline {
+  border: 1px solid #fff;
+}
+
+.input-group-append .input-group-text i {
+  cursor: pointer;
+}
+
+.btn i {
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+}
+
+.navbar-toggler i {
+  font-size: 25px;
+  color: #fff;
+  font-weight: 800;
+}
+
+.navbar .nav-item a {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+.navbar-collapse .collapse {
+  background-color: rgba(#232220, #232220, #232220, 0.5);
+}
+.collapse .nav-item:hover a {
+  color: #f60;
+}
+.list-group .list-group-item {
+  border: none;
+  background: #404040c0;
+  padding: 0;
+}
+
+#switchButton .btn i {
+  font-size: 25px;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0);
+}
+/* Light theme */
+#dinnerBody {
+  background-color: rgba(255, 255, 255, 0);
+}
+#switchButton {
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid rgba(0, 0, 0, 0);
+  box-shadow: none;
+}
+#switchButton .fa-sun {
+  display: none;
+}
+#switchButton .fa-moon {
+  display: block;
+}
+.input-group-append .form-control {
+  border: none;
+}
+.input-group-text {
+  border: none;
+  background: #fff;
+}
+
+/* Dark Theme*/
+.dark#dinnerBody {
+  background-color: #232220;
+}
+.dark #switchButton {
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid rgba(255, 255, 255, 0);
+  box-shadow: none;
+}
+.dark #switchButton .fa-sun {
+  display: block;
+  color: white;
+}
+
+.dark #switchButton .fa-moon {
+  display: none;
+}
+.dark .card {
+  background-color: #232220;
+  color: #c2d0da;
+  border: 1px solid rgba(0, 0, 0, 0);
+}
+.dark .card h3,
+.dark .card q,
+.dark .card blockquote {
+  background-color: #232220;
+  color: #eee;
+  border: 1px solid rgba(0, 0, 0, 0);
+}
+.dark .card .form-control,
+.dark .input-group-text {
+  background-color: #232220;
+}

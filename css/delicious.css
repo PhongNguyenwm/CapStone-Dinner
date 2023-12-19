@@ -1,0 +1,110 @@
+/* DELICIOUS  */
+.delicious {
+  position: relative;
+}
+.delicious__top {
+  background: url(../img/banner2.jpg);
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: white;
+  padding: 50px 0px 180px 0px;
+}
+.delicious__top:before {
+  content: "";
+  background: rgb(16 15 19 / 66%);
+  position: absolute;
+  top: 0;
+  min-height: 100%;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+.delicious__title h2 {
+  font-size: 2.7rem;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+.delicious__info {
+  display: flex;
+  justify-content: center;
+}
+.delicious__info a {
+  text-decoration: none;
+  color: #fff;
+}
+.delicious__left {
+  margin-right: 30px;
+}
+.btn-style {
+  padding: 12px 45px;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 700;
+  transition: 0.3s ease-in;
+  border-radius: 8px;
+  border: 2px solid #fff;
+}
+
+.btn-style:hover {
+  background-color: #fff;
+  color: #f60;
+}
+.btn-primary {
+  padding: 12px 45px;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 700;
+  transition: 0.3s ease-in;
+  border-radius: 8px;
+  border: 2px solid #f60;
+  background-color: #f60;
+}
+.btn-primary:hover {
+  background-color: #f60;
+  opacity: 0.8;
+  border: 2px solid #f60;
+}
+
+.number {
+  background-color: #fff;
+  box-shadow: rgba(1, 1, 1, 0.05) 1px 1px 5px 0px;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  border-radius: 8px;
+  transform: translateY(0);
+  transition: all 0.5s;
+}
+.number:hover {
+  transform: translateY(-15px);
+  box-shadow: rgba(1, 1, 1, 0.05) 2px -1px 8px 9px;
+}
+.number span {
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  background: #f60;
+  line-height: 73px;
+  border-radius: 50px;
+  transition: 0.5s;
+  font-size: 1.5rem;
+  color: white;
+}
+.number__item p:first-of-type {
+  font-weight: bold;
+  font-size: 2rem;
+  color: #232121;
+}
+.number__item p:last-of-type {
+  font-weight: bold;
+}
