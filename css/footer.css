@@ -1,7 +1,6 @@
 /* footer  */
 .footer {
   background-color: black;
-  padding: 50px 0;
   color: #fff;
 }
 .footer__content {
@@ -14,6 +13,17 @@
   list-style: none;
   transition: 0.5s;
 }
+.footer .logo__footer {
+  font-size: 30px;
+  font-weight: 600;
+  padding: 0;
+}
+.footer h5 {
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 700;
+}
+
 .footer a:hover {
   color: #f60;
 }
@@ -46,10 +56,10 @@
   color: #fff;
 }
 .cat__title {
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 .cat__item1 {
-  padding-bottom: 15px;
+  margin-bottom: 10px;
 }
 .form__item {
   padding: 14px 20px;

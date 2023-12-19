@@ -80,6 +80,9 @@ header .navbar .navbar-brand {
   border: none;
   background: #fff;
 }
+.card {
+  border: none;
+}
 
 /* Dark Theme*/
 .dark#dinnerBody {
