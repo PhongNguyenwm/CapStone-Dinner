@@ -82,6 +82,10 @@ header .navbar .navbar-brand {
 }
 .card {
   border: none;
+  background-color: inherit;
+}
+.testimonial {
+  background-color: #fff;
 }
 
 /* Dark Theme*/
@@ -109,11 +113,66 @@ header .navbar .navbar-brand {
 .dark .card h3,
 .dark .card q,
 .dark .card blockquote {
-  background-color: #232220;
+  /* background-color: #232220; */
   color: #eee;
   border: 1px solid rgba(0, 0, 0, 0);
 }
+.dark .text {
+  color: #eee;
+}
+
 .dark .card .form-control,
 .dark .input-group-text {
   background-color: #232220;
+}
+.dark .title h3 {
+  color: #eee;
+}
+
+.dark .category {
+  background-color: #282828;
+}
+.dark .menu {
+  background-color: #232220;
+}
+.dark .menu__text p {
+  color: #c2d0da;
+}
+.dark .menu__text h4 {
+  color: #eeee;
+}
+.dark .menu__content {
+  background-color: #232220;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.dark .menu__content .icon__content {
+  background-color: #282828;
+}
+
+.dark .number {
+  background-color: #232220;
+}
+.dark .number .counter {
+  color: #eee;
+}
+.dark .number p {
+  color: #c2d0da;
+}
+
+.dark .blog {
+  background-color: #282828;
+}
+.dark .blog a,
+.dark .blog .blog__footer .blog__left a,
+.dark .blog .blog__right a,
+.dark .testimonial q,
+.dark .testimonial h3 {
+  color: #eee;
+}
+
+.dark .testimonial {
+  background-color: #232220;
+}
+.dark .testimonial__text p {
+  color: #c2d0da;
 }
