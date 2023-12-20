@@ -8,7 +8,7 @@
   margin-left: 0;
 }
 
-.restaurants .col-6 {
+.restaurants__img {
   padding: 0;
   margin: 0;
 }
@@ -98,4 +98,14 @@
 }
 .col__item:hover i {
   color: #fcb900;
+}
+
+/* RESPONSIVE */
+@media (max-width: 991px) {
+  .restaurants .img__item img {
+    min-height: 200px;
+  }
+  .restaurants .img__item {
+    align-items: center;
+  }
 }

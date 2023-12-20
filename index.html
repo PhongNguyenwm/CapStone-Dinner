@@ -72,8 +72,8 @@
   <body id="dinnerBody">
     <!-- HEADER -->
     <header>
-      <nav class="navbar">
-        <div class="container">
+      <div class="container-fluid">
+        <nav class="navbar">
           <h1 class="p-2 flex-grow-1">
             <a class="navbar-brand" href="#">Dinner</a>
           </h1>
@@ -144,8 +144,8 @@
               </li>
             </ul>
           </div>
-        </div>
-      </nav>
+        </nav>
+      </div>
     </header>
     <!-- BANNER -->
     <section class="banner">
@@ -169,13 +169,15 @@
     <!-- ABOUT US -->
 
     <section class="aboutUs py-4">
-      <div class="container py-md-4">
+      <div class="container-fluid py-md-4">
         <div class="aboutUs__content">
           <div class="row">
             <div class="col-lg-5">
               <div class="title card">
                 <h6>About Us</h6>
-                <h3>We found our creative space that is open for you.</h3>
+                <h3 class="mb-4">
+                  We found our creative space that is open for you.
+                </h3>
               </div>
             </div>
             <div class="col-lg-7 pl-lg-5 mt-lg-0 mt-3">
@@ -204,12 +206,14 @@
       <div class="container-fluit">
         <div class="restaurants__content">
           <div class="row">
-            <div class="col-6">
+            <div class="restaurants__img col-md-12 col-lg-6">
               <div class="img__item">
                 <img src="./img/banner3.jpg" alt="" />
               </div>
             </div>
-            <div class="col-6 restaurants__item px-lg-4 py-lg-3 py-4">
+            <div
+              class="col-md-12 col-lg-6 restaurants__item px-lg-4 py-lg-3 py-4"
+            >
               <div class="container p-md-4 p-2">
                 <div class="restaurants__text">
                   <h6>More than 3000 Restaurants</h6>
@@ -221,7 +225,7 @@
                   </p>
                 </div>
                 <div class="row container-fluid mt-5">
-                  <div class="col-xl-6">
+                  <div class="col-6">
                     <div class="col__item">
                       <div class="col__content mb-3">
                         <i class="fa-solid fa-thumbs-up"></i>
@@ -232,7 +236,7 @@
                       </p>
                     </div>
                   </div>
-                  <div class="col-xl-6">
+                  <div class="col-6">
                     <div class="col__item">
                       <div class="col__content mb-3">
                         <i class="fa-solid fa-utensils"></i>
@@ -260,7 +264,7 @@
         </div>
         <div class="category__item">
           <div class="row">
-            <div class="col-sm-6 col-lg-4 mt-4 pt-lg-2">
+            <div class="col-sm-6 col-md-6 col-lg-4 mt-4 pt-lg-2">
               <div class="img__item2">
                 <img src="./img/g1.jpg" alt="" />
               </div>
@@ -269,7 +273,7 @@
                 <p>$350</p>
               </div>
             </div>
-            <div class="col-sm-6 col-lg-4 mt-4 pt-lg-2">
+            <div class="col-sm-6 col-md-6 col-lg-4 mt-4 pt-lg-2">
               <div class="img__item2">
                 <img src="./img/g2.jpg" alt="" />
               </div>
@@ -278,7 +282,7 @@
                 <p>$550</p>
               </div>
             </div>
-            <div class="col-sm-6 col-lg-4 mt-4 pt-lg-2">
+            <div class="col-sm-6 col-md-6 col-lg-4 mt-4 pt-lg-2">
               <div class="img__item2">
                 <img src="./img/g3.jpg" alt="" />
               </div>
@@ -287,7 +291,7 @@
                 <p>$650</p>
               </div>
             </div>
-            <div class="col-sm-6 col-lg-4 mt-4 pt-lg-2">
+            <div class="col-sm-6 col-md-6 col-lg-4 mt-4 pt-lg-2">
               <div class="img__item2">
                 <img src="./img/g4.jpg" alt="" />
               </div>
@@ -296,7 +300,7 @@
                 <p>$550</p>
               </div>
             </div>
-            <div class="col-sm-6 col-lg-4 mt-4 pt-lg-2">
+            <div class="col-sm-6 col-md-6 col-lg-4 mt-4 pt-lg-2">
               <div class="img__item2">
                 <img src="./img/g5.jpg" alt="" />
               </div>
@@ -305,7 +309,7 @@
                 <p>$750</p>
               </div>
             </div>
-            <div class="col-sm-6 col-lg-4 mt-4 pt-lg-2">
+            <div class="col-sm-6 col-md-6 col-lg-4 mt-4 pt-lg-2">
               <div class="img__item2">
                 <img src="./img/g6.jpg" alt="" />
               </div>
@@ -474,7 +478,7 @@
         <div class="number__content">
           <div class="container-xl delicious__bottom">
             <div class="row">
-              <div class="col-md-3 col-xl-3 mt-md-0 mt-4">
+              <div class="col-sm-6 col-md-3 mt-md-0 mt-4">
                 <div class="number">
                   <span class="fa-solid fa-building"></span>
 
@@ -484,7 +488,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-3 col-xl-3 mt-md-0 mt-4">
+              <div class="col-sm-6 col-md-3 mt-md-0 mt-4">
                 <div class="number">
                   <span class="fa fa-cutlery"></span>
 
@@ -494,7 +498,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-3 col-xl-3 mt-md-0 mt-4">
+              <div class="col-sm-6 col-md-3 mt-md-0 mt-4">
                 <div class="number">
                   <span class="fa fa-users"></span>
 
@@ -504,7 +508,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-3 col-xl-3 mt-md-0 mt-4">
+              <div class="col-sm-6 col-md-3 mt-md-0 mt-4">
                 <div class="number">
                   <span class="fa fa-smile"></span>
 

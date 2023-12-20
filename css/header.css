@@ -14,6 +14,10 @@ header .navbar .navbar-brand {
   font-size: 36px;
   font-weight: 700;
 }
+header .navbar .container {
+  width: 100%;
+  padding: 0 15px !important;
+}
 
 .form-inline {
   border: 1px solid #fff;
@@ -175,4 +179,46 @@ header .navbar .navbar-brand {
 }
 .dark .testimonial__text p {
   color: #c2d0da;
+}
+
+/* Responsive */
+header .container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (max-width: 1199px) {
+  header .container {
+    max-width: 1140px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+@media (min-width: 991px) {
+  header .container {
+    max-width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+@media (min-width: 767px) {
+  header .container {
+    max-width: 720px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+@media (min-width: 575px) {
+  header .container {
+    max-width: 540px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+@media (max-width: 767px) {
+  .navbar .form-inline {
+    display: none;
+  }
 }

@@ -19,7 +19,7 @@
   text-align: center;
   color: white;
 }
-.container-fluid:before {
+.delicious .container-fluid:before {
   content: "";
   background: rgb(16 15 19 / 66%);
   position: absolute;
@@ -115,4 +115,18 @@
 }
 .number__item p:last-of-type {
   font-weight: bold;
+}
+
+/* RESPONSIVE */
+@media (max-width: 992px) {
+}
+@media (max-width: 768px) {
+  .number__container {
+    width: 720px;
+  }
+}
+@media (max-width: 576px) {
+  .number__container {
+    width: 540px;
+  }
 }
