@@ -117,7 +117,7 @@
   }
   .banner__content {
     z-index: 1031;
-    width: 600px;
+    max-width: 545px;
     text-align: left;
     position: absolute;
     top: 150px;
