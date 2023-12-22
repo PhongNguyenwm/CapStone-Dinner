@@ -78,3 +78,10 @@
 .bottom__copy a:hover {
   color: #fff;
 }
+
+/* Responsive */
+@media (max-width: 992px) {
+  .footer .footer__social {
+    text-align: center;
+  }
+}
