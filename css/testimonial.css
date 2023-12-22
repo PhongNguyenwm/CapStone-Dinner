@@ -132,6 +132,7 @@
 @media  (min-width: 768px) and (max-width: 992px) {
   .testimonial__mcarousel {
       padding: 35px;
+     
   }
  
   .testimonial__content {
@@ -142,10 +143,10 @@
       flex: 0 0 100%;
   }
 }
-@media (min-width: 768px) and (max-width: 772px) {
+@media (min-width: 540px) and (max-width: 772px) {
   .testimonial__mcarousel {
       padding: 15px;
-      
+      width: 500px; margin-right: 50px;
       
   }
 
