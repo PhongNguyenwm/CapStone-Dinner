@@ -3,7 +3,7 @@
 .banner .container-fluid {
   padding: 0 0;
 }
-.banner__img {
+.banner {
   background-image: linear-gradient(to right, #f60, hsl(30deg 100% 1% / 20%)),
     url(../img/banner1.jpg);
   background-size: cover;
@@ -13,13 +13,26 @@
   position: relative;
 }
 
-.banner__content {
+.banner .banner__info {
+  height: inherit;
+}
+.banner .container-fluid {
   z-index: 1031;
-  width: 600px;
   text-align: left;
+  z-index: 1031;
   position: absolute;
   top: 150px;
-  left: 20px;
+  left: 100px;
+  height: 100%;
+}
+
+.banner__content {
+  /* z-index: 1031; */
+  width: 600px;
+  /* text-align: left;
+  position: absolute;
+  top: 150px;
+  left: 20px; */
 }
 .banner__content h3 {
   font-size: 54px;
@@ -66,80 +79,136 @@
   right: 0;
 }
 /* RESPONSIVE */
-@media (max-width: 1199px) {
-  .banner .banner__content h3 {
-    font-size: 48px;
-    line-height: 58px;
-  }
-}
-
-@media (max-width: 991px) {
-  .banner .banner__content h3 {
-    font-size: 44px;
-    line-height: 53px;
-  }
-  .banner__content {
-    z-index: 1031;
-    width: 600px;
-    text-align: left;
-    position: absolute;
-    top: 150px;
-    left: 25px;
-  }
-}
-@media (max-width: 800px) {
-  .banner .banner__content h3 {
-    font-size: 40px;
-    line-height: 50px;
-  }
-  .banner__content {
-    z-index: 1031;
-    width: 600px;
-    text-align: left;
-    position: absolute;
-    top: 150px;
-    left: 25px;
-  }
-  .banner .banner__img {
+@media (min-width: 360px) {
+  .banner {
     min-height: 600px;
     height: 600px;
+    width: 100%;
   }
-}
-
-@media (max-width: 767px) {
-  .banner .banner__content h3 {
-    font-size: 40px;
-    line-height: 50px;
-  }
-  .banner__img {
-    min-height: 600px;
-    height: 600px;
-  }
-  .banner__content {
-    z-index: 1031;
-    max-width: 545px;
-    text-align: left;
-    position: absolute;
-    top: 150px;
-    left: 25px;
-  }
-}
-
-@media (max-width: 575px) {
   .banner .banner__content h3 {
     font-size: 28px;
     line-height: 38px;
   }
+  .banner .container-fluid {
+    z-index: 1031;
+    text-align: left;
+    position: absolute;
+    top: 125px;
+    left: 25px;
+    width: 300px;
+  }
   .banner .banner__content {
-    max-width: 400px;
+    width: 320px;
+  }
+  .banner .banner__content h3 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+}
+
+@media (min-width: 575px) {
+  .banner {
+    min-height: 450px;
+    height: 600px;
+  }
+  .banner .banner__content h3 {
+    font-size: 28px;
+    line-height: 38px;
+  }
+  .banner .container-fluid {
+    z-index: 1031;
+    text-align: left;
+    position: absolute;
+    top: 125px;
+    left: 36px;
+  }
+  .banner .banner__content {
+    width: 450px;
+  }
+  .banner .banner__content h3 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+}
+
+@media (min-width: 767px) {
+  .banner .banner__content h3 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .banner {
+    min-height: 600px;
+    height: 600px;
+  }
+  .banner .banner__content {
+    width: 600px;
+  }
+  .banner .container-fluid {
+    z-index: 1031;
+    text-align: left;
+    position: absolute;
+    top: 125px;
+    left: 36px;
+  }
+}
+
+@media (min-width: 800px) {
+  .banner .banner__content h3 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .banner .container-fluid {
+    z-index: 1031;
+    text-align: left;
+    position: absolute;
+    top: 125px;
+    left: 45px;
+  }
+  .banner .banner__content {
+    min-height: 600px;
+    height: 600px;
+    min-width: 600px;
+  }
+}
+
+@media (min-width: 991px) {
+  .banner .banner__content h3 {
+    font-size: 44px;
+    line-height: 53px;
+  }
+  .banner .container-fluid {
+    z-index: 1031;
+    text-align: left;
+    position: absolute;
+    top: 125px;
+    left: 45px;
+  }
+}
+
+@media (min-width: 1199px) {
+  .banner .banner__content h3 {
+    font-size: 48px;
+    line-height: 58px;
+  }
+  .banner .container-fluid {
+    z-index: 1031;
+    text-align: left;
+    position: absolute;
+    top: 125px;
+    left: 60px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .banner .banner__content h3 {
+    font-size: 48px;
+    line-height: 58px;
+  }
+  .banner .container-fluid {
     z-index: 1031;
     text-align: left;
     position: absolute;
     top: 150px;
-    left: 25px;
-  }
-  .banner banner__img {
-    min-height: 450px;
-    height: 450px;
+    left: 81px;
   }
 }

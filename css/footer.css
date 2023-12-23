@@ -78,37 +78,3 @@
 .bottom__copy a:hover {
   color: #fff;
 }
-/* RESPONSIVE */
-@media (max-width:1200px) {
- header .container{
-  max-width: 1140px;
-  margin-right: auto;
-  margin-left: auto;
- }
-}
-@media (max-width:992px){
-footer .footer__social{
-  text-align: center;
-  margin-top: 20px;
-}
-}
-@media (min-width: 576px)
- {
- footer .col-sm-5{
-  flex: 0 0 41.66667%;
-  max-width: 41.66667%;
-}
- }
-    
-@media (min-width:576px){
-  footer .col-sm-7{
-    flex: 0 0 58.33333%;
-    max-width: 58.33333%;
-  }
-}
-@media (min-width: 992px){
- footer .col-lg-4 {
-    flex: 0 0 33.33333%;
-    max-width: 33.33333%;
-}
-}

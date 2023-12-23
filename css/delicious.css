@@ -1,10 +1,6 @@
 /* DELICIOUS  */
 .delicious {
   position: relative;
-}
-
-.delicious .container-fluid {
-  padding: 0;
   background: url(../img/banner2.jpg);
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: center;
@@ -19,7 +15,11 @@
   text-align: center;
   color: white;
 }
-.delicious .container-fluid:before {
+
+.delicious .container-fluid {
+  padding: 0;
+}
+.delicious:before {
   content: "";
   background: rgb(16 15 19 / 66%);
   position: absolute;
